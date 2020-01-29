@@ -1,0 +1,51 @@
+array(47) { ["email"]=> string(26) "edilson18martins@gmail.com"
+["token"]=> string(32) "F1E9DA8BBB604CC5BE8AEE64ABF90029"
+["paymentMode"]=> string(7) "default"
+["paymentMethod"]=> NULL
+["receiverEmail"]=> string(26) "edilson18martins@gmail.com"
+["currency"]=> NULL
+["extraAmount"]=> NULL
+["itemId1"]=> NULL
+["itemDescription1"]=> NULL
+["itemAmount1"]=> NULL
+["itemQuantity1"]=> NULL
+["notificationURL"]=> string(36) "https://sualoja.com.br/notifica.html"
+["reference"]=> NULL
+["senderName"]=> NULL
+["senderCPF"]=> NULL
+["senderAreaCode"]=> NULL
+["senderPhone"]=> NULL
+["senderEmail"]=> NULL
+["senderHash"]=> NULL
+["shippingAddressRequired"]=> NULL
+["shippingAddressStreet"]=> NULL
+["shippingAddressNumber"]=> NULL
+["shippingAddressComplement"]=> NULL
+["shippingAddressDistrict"]=> NULL
+["shippingAddressPostalCode"]=> NULL
+["shippingAddressCity"]=> NULL
+["shippingAddressState"]=> NULL
+["shippingAddressCountry"]=> NULL
+["shippingType"]=> NULL
+["shippingCost"]=> NULL
+["creditCardToken"]=> NULL
+["installmentQuantity"]=> NULL
+["installmentValue"]=> NULL
+["noInterestInstallmentQuantity"]=> NULL
+["creditCardHolderName"]=> NULL
+["creditCardHolderCPF"]=> NULL
+["creditCardHolderBirthDate"]=> NULL
+["creditCardHolderAreaCode"]=> NULL
+["creditCardHolderPhone"]=> NULL
+["billingAddressStreet"]=> NULL
+["billingAddressNumber"]=> NULL
+["billingAddressComplement"]=> NULL
+["billingAddressDistrict"]=> NULL
+["billingAddressPostalCode"]=> NULL
+["billingAddressCity"]=> NULL
+["billingAddressState"]=> NULL
+["billingAddressCountry"]=> NULL
+}
+
+Sucesso {"erro":true,"dados":{"error":
+    {"code":"53123","message":"sender email invalid value: edilson18martins@gmail.com. You must use c50414803576965597208@sandbox.pagseguro.com.br"}}}

@@ -1,0 +1,78 @@
+.div-fundo-principal{
+   padding: 15px;
+   background:  linear-gradient( #ffa500 50%, #fe6e2a 50%); 
+}
+
+ .whatsapp-formulario>a{
+    color:#000
+ }
+ .icon-email{
+    fill:#fff;
+    height: 40px;
+    width:40px;
+   }
+ .icon-telefone{
+    fill:#fff;
+    height: 30px;
+    width:30px;
+   }
+ .icon-whatsapp{
+    fill:#fff;
+    height: 30px;
+    width:30px;
+   }
+ .formulario-fale-conosco{ 
+     font-family: monospace;
+     padding:20px;
+     border:1px solid #0e6252;
+     border-radius: 10px;   
+     height:456px;
+     background-color:#fff;
+    }
+ .input-field {
+     position: relative;
+     margin-bottom: 40px;
+    }
+ .input-field input,textarea {
+    margin: -3px;
+    width: 98%;
+    display: block;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 1px #1abc9c;
+    -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+    background-position: -200px 0;
+    background-size: 200px 100%;
+    background-repeat: no-repeat;
+    color: #0e6252;
+   }
+  input:focus {
+      box-shadow:none;
+      outline:none;
+    }
+ .input-field label {
+     color: #9e9e9e;
+     font-size: 16px;
+     position: absolute;
+     top: 12px;
+     transition: .3s ease-out;
+    }
+ .buttom{
+     cursor:pointer;
+     border:1px solid #0e6252;
+     border-radius:30px;
+     width:60px;
+     height:25px;
+     text-align:center;
+     color:#0e6252;
+     font-family:Boogaloo;
+     font-size:13pt;
+     background-color:#fff;
+    }
+ .buttom:hover{
+     background-color:#0e6252;
+     color:#fff;
+    }

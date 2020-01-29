@@ -1,0 +1,253 @@
+body {
+    overflow-x: hidden;
+}
+
+.top-header.container-fluid {
+    height: 30px;
+    background-color: darkorange;
+    margin: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.top-header.container-fluid>div {
+    margin: 0;
+    padding: 0;
+}
+
+.top-header.container-fluid>.redes-socias>svg {
+    width: 30px;
+    font-weight: 500;
+    height: 30px;
+    fill: black;
+    z-index: 3;
+    float: right;
+}
+
+.header-principal {
+    padding: 10px 0;
+}
+
+.header-principal>.navbar {
+    width: 100%;
+}
+
+.header-principal>.navbar>.container-fluid {
+    padding-right: 5px;
+}
+
+.navbar.navbar-expand-md {
+    padding: 0;
+}
+
+.navbar-nav>.nav-item {
+    position: relative;
+    margin-right: 40px;
+}
+
+.navbar-nav>.nav-item>.nav-link {
+    padding: 0;
+    font-size: 18px;
+    color: #212529;
+}
+
+.navbar-nav>.nav-item>.nav-link.nav-link-menu>.item‐icone-avatar {
+    width: 40px;
+    height: 40px;
+    fill: coral;
+    z-index: 3;
+    position: relative;
+    top: -10px
+}
+
+.navbar-nav>.nav-item:last-child {
+    margin-right: 5px;
+}
+
+.navbar-nav>.nav-item>.nav-link:after {
+    top: 0px;
+    left: 0%;
+    width: 0;
+    height: 3px;
+    background: #fb3c03;
+    display: block;
+    content: "";
+    transition: width 0.5s ease-in-out;
+    transition-timing-function: cubic-bezier(0.52, 1.64, .37, .66);
+    z-index: 5;
+    position: absolute;
+    top: 30px;
+}
+
+.navbar-nav>.nav-item>.nav-link:hover:after {
+    width: 100%;
+}
+
+.navbar-nav>.nav-item>.nav-link:hover {
+    color: red
+}
+
+main>.container-fluid {
+    padding: 0;
+}
+
+main>.container-fluid>.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.carousel-inner>.carousel-item {
+    height: 520px;
+}
+
+.carousel-inner>.carousel-item>img {
+    height: 100%;
+}
+
+.col-lg-4.icon-alimentos {
+    text-align: center
+}
+
+.icon-alimentos-item {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.filtro>a {
+    font-family: monospace;
+    font-size: 1em;
+}
+
+.filtro>a:nth-child(even) {
+    color: orange
+}
+
+.filtro>a:nth-child(odd) {
+    color: #fb3c03
+}
+
+.promocoes-de-hoje {
+    width: 100%;
+    display: block;
+    position: relative;
+    color: #fb3c03;
+    font-size: 21px;
+    margin: 20px 0;
+}
+
+.linha {
+    width: 100%;
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: 15px;
+    z-index: 1;
+    background: #fb3c03;
+}
+
+.linha-2 {
+    position: relative;
+    background-color: #fff;
+    padding-right: 5px;
+    z-index: 10;
+}
+
+.container-fluid.body-conteiner {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.descricao p {
+    margin: 0;
+}
+
+.cardapio-item {
+    margin: 0px;
+}
+
+.cardapio-item>.cardapio-item-body {
+    border: #212529 1px solid;
+    border-radius: 6px;
+    margin: 5px;
+    height: 155px;
+    overflow: hidden;
+}
+
+.cardapio-item>.cardapio-item-body:hover {
+    -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .6);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .6);
+}
+
+.cardapio-item>.cardapio-item-body>.col-4 {
+    border-right: #212529 1px solid;
+    width: 100%;
+    height: 100%;
+    padding: 0
+}
+
+.cardapio-item>.cardapio-item-body>.col-4>img {
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.cardapio-item>.cardapio-item-body>.col-8.descricao {
+    padding: 5px;
+}
+
+.cardapio-item>.cardapio-item-body>.descricao p {
+    margin-bottom: 0px;
+}
+
+.col-sm-3.sacola>.sacola-body {
+    min-height: 175px;
+    border: #212529 1px solid;
+    padding: 10px;
+}
+
+.col-sm-3.sacola>.sacola-body>.titulo-pedido {
+    color: #212529;
+    font-size: 20px;
+}
+
+.formulario-fixo {
+    position: sticky;
+    top: 20px
+}
+
+.sacola-table {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+tbody>tr>.qtd {
+    text-align: center;
+}
+
+.td-valor-total-valor {
+    color: red;
+}
+
+.fazer-pedido>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.limpa-sacola {
+    cursor: pointer;
+    color: orange;
+}
+
+.limpa-sacola:hover {
+    border-bottom: 1px solid red;
+}
+
+.rodape-principal {
+    background: #0b786d;
+    height: 100px;
+}

@@ -1,0 +1,25 @@
+.rodape-principa{
+    background: #5c5c5c;
+    font-family: monospace;
+    color: #fff;
+    font-size: 1em;
+}
+.rodape-principa-row-col-3-span{
+    text-align: center;
+    color: orange;
+}
+
+.item‐icone-rodape{
+    fill:#3b3c3d;
+    width:25px;
+    height:25px;
+}
+.contato-rodape>p>.link-whatsapp{
+   color:#000
+}
+.footer-botton{height: 40px;background: #3b3c3d;}
+.item‐icone-rodape-botton{
+    fill:#fff;
+    width:35px;
+    height:35px;
+}

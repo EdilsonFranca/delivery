@@ -1,0 +1,26 @@
+.row-formulario{
+    background-color: orange;
+}
+.formulario-adiciona-produtos{
+    background-color: rgba(0,0,0,.7);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+.formulario-adiciona-produtos>h3{
+    color:#fff;
+}
+.formulario-adiciona-produtos>.form>.form-group>label{
+    color:#fff;
+}
+.rodape{
+    width: 100%;
+    height: 50px;
+    background-color: teal;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.copyright{
+    margin: auto;
+}
